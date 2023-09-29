@@ -15,4 +15,15 @@ export const THEME = {
 
     DANGER: '#E25858',
   },
+
+  FONT_FAMILY: {
+    REGULAR: 'Inter_400Regular',
+    BOLD: 'Inter_700Bold',
+  },
+
+  FONT_SIZE: {
+    SM: 12,
+    MD: 14,
+    LG: 16,
+  },
 }

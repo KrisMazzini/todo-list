@@ -30,7 +30,8 @@ export const styles = StyleSheet.create({
     borderWidth: 1,
     borderRadius: 6,
 
-    fontSize: 16,
+    fontFamily: THEME.FONT_FAMILY.REGULAR,
+    fontSize: THEME.FONT_SIZE.LG,
     color: THEME.COLORS.GRAY_100,
     backgroundColor: THEME.COLORS.GRAY_500,
   },

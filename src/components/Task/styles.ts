@@ -18,14 +18,18 @@ export const styles = StyleSheet.create({
 
   taskDescription: {
     flex: 1,
-    fontSize: 14,
+
+    fontFamily: THEME.FONT_FAMILY.REGULAR,
+    fontSize: THEME.FONT_SIZE.MD,
     lineHeight: 19.6,
     color: THEME.COLORS.GRAY_100,
   },
 
   doneTaskDescription: {
     flex: 1,
-    fontSize: 14,
+
+    fontFamily: THEME.FONT_FAMILY.REGULAR,
+    fontSize: THEME.FONT_SIZE.MD,
     lineHeight: 19.6,
     textDecorationLine: 'line-through',
     color: THEME.COLORS.GRAY_300,

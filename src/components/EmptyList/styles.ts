@@ -15,14 +15,15 @@ export const styles = StyleSheet.create({
   boldText: {
     marginTop: 16,
 
-    fontSize: 14,
-    fontWeight: '700',
+    fontFamily: THEME.FONT_FAMILY.BOLD,
+    fontSize: THEME.FONT_SIZE.MD,
     lineHeight: 19.6,
     color: THEME.COLORS.GRAY_300,
   },
 
   regularText: {
-    fontSize: 14,
+    fontFamily: THEME.FONT_FAMILY.REGULAR,
+    fontSize: THEME.FONT_SIZE.MD,
     lineHeight: 19.6,
     color: THEME.COLORS.GRAY_300,
   },

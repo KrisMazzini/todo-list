@@ -12,6 +12,7 @@ export function EmptyList() {
       <Text style={styles.boldText}>
         Você ainda não tem tarefas cadastradas
       </Text>
+
       <Text style={styles.regularText}>
         Crie tarefas e organize seus itens a fazer
       </Text>

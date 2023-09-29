@@ -9,15 +9,15 @@ export const styles = StyleSheet.create({
   },
 
   created: {
-    fontSize: 14,
+    fontFamily: THEME.FONT_FAMILY.BOLD,
+    fontSize: THEME.FONT_SIZE.MD,
     color: THEME.COLORS.BLUE,
-    fontWeight: '700',
   },
 
   done: {
-    fontSize: 14,
+    fontFamily: THEME.FONT_FAMILY.BOLD,
+    fontSize: THEME.FONT_SIZE.MD,
     color: THEME.COLORS.PURPLE,
-    fontWeight: '700',
   },
 
   counter: {
@@ -28,8 +28,8 @@ export const styles = StyleSheet.create({
     borderRadius: 9,
     overflow: 'hidden',
 
-    fontSize: 12,
-    fontWeight: '700',
+    fontFamily: THEME.FONT_FAMILY.BOLD,
+    fontSize: THEME.FONT_SIZE.SM,
     color: THEME.COLORS.GRAY_200,
     backgroundColor: THEME.COLORS.GRAY_400,
   },
