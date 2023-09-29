@@ -17,6 +17,7 @@ import { styles } from './styles'
 
 import { Statistic } from '../../components/Statistic'
 import { Task } from '../../components/Task'
+import { EmptyList } from '../../components/EmptyList'
 
 interface Task {
   id: string
@@ -115,6 +116,7 @@ export function Home() {
               onRemove={() => handleRemoveTask(item.id)}
             />
           )}
+          ListEmptyComponent={() => <EmptyList />}
         />
       </View>
     </>
