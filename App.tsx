@@ -1,5 +1,7 @@
 /* eslint-disable camelcase */
 import { StatusBar } from 'expo-status-bar'
+
+import { Loading } from './src/components/Loading'
 import { Home } from './src/screens/Home'
 
 import {
@@ -17,7 +19,7 @@ export default function App() {
   return (
     <>
       <StatusBar style="light" />
-      {fontsLoaded ? <Home /> : <></>}
+      {fontsLoaded ? <Home /> : <Loading />}
     </>
   )
 }
